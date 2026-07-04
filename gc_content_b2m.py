@@ -1,4 +1,3 @@
-# Function to read FASTA file
 def read_fasta(filename):
     with open(filename,"r") as file:
         lines = file.readlines()
@@ -8,7 +7,6 @@ def read_fasta(filename):
                 sequence += line.strip()
     return sequence
 
-# Function to calculate GC content
 def calculate_gc(sequence):
     g = sequence.count("G")
     c = sequence.count("C")
