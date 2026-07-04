@@ -1,2 +1,2 @@
-# dna-gc-content-calculator
-Python programming to calculate GC content of DNA sequence.
+# bioinformatics-dna-sequence-analysis
+Python programming to calculate GC content, neucleotide frequency, and codon analysis of DNA sequence.
